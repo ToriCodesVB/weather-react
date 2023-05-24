@@ -1,14 +1,15 @@
 import "./App.css";
-import Weather from "./Weather";
+
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello from React!</h1>
-        <Weather city="Paris" />
-      </header>
+      <h1>WeatherApp </h1>
+      <footer>
+        This project was created by Viktoriia Baburkina and is{" "}
+        <a href="https://github.com/ToriCodesVB/weather-react" target="_blank">opened-sourced on GitHub</a>
+      </footer>
     </div>
   );
 }
