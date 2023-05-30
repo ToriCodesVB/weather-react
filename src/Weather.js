@@ -15,7 +15,11 @@ export default function Weather() {
             />
           </div>
           <div className="col-3">
-            <input type="Submit" className="btn btn-light w-100" value="Search"/>
+            <input
+              type="Submit"
+              className="btn btn-light w-100"
+              value="Search"
+            />
           </div>
         </div>
       </form>
@@ -27,12 +31,11 @@ export default function Weather() {
       <div className="row mt-3">
         <div className="col-6">
           <img
-            src="https://static.euronews.com/weather/icons/SVGs/v2_2/wsymbol_0041_partly_cloudy_night.svg"
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
             alt="Mostly cloudy"
           />
           <span className="temperature">10</span>
           <span className="unit">°С</span>
-          
         </div>
         <div className="col-6">
           <ul>

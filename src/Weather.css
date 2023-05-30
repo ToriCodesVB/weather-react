@@ -14,9 +14,8 @@
     margin: 20px 0 5px;
 }
 .Weather img {
-    margin: 10px auto;
     margin-top: -38px;
-    max-width: 95px;
+    width: 130px;
 }
 
 .Weather ul {
@@ -36,9 +35,8 @@
     color: white;
     font-size: 64px;
     line-height: 64px;
-    margin-left: 5px;
     font-weight: 400;
-    margin-left: 10px;
+    
 }
 
 .Weather .unit {
