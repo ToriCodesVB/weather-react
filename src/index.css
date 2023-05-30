@@ -1,1 +1,8 @@
-
+body {
+    background-image: url(pexels-vojta-kovařík-1275415.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
