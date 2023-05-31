@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         
-        <Weather />
+        <Weather defaultCity="Amsterdam" />
         <footer>
           This project was created by Viktoriia Baburkina and is{" "}
           <a
