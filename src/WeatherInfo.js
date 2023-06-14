@@ -9,7 +9,8 @@ export default function WeatherInfo(props) {
       <h1>{props.data.city}</h1>
       <ul className="mt-3">
         <li>
-          Last updated: <FormattedDate date={props.data.date} />
+          Last updated:
+          <FormattedDate date={props.data.date} />
         </li>
         <li className="text-capitalize ">{props.data.description}</li>
       </ul>
@@ -17,7 +18,7 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <div className="d-flex">
             <div>
-              <WeatherIcon code={props.data.icon} />
+              <WeatherIcon code={props.data.icon} size={62} />
             </div>
             <div>
               <WeatherTemperature celsius={props.data.temperature} />
