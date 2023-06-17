@@ -12,7 +12,7 @@ function App() {
           <a
             href="https://github.com/ToriCodesVB/weather-react"
             target="_blank"
-            rel="noreferrer">
+            rel="noopener noreferrer">
             opened-sourced on GitHub
           </a>
         </footer>
